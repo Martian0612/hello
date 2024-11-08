@@ -1,0 +1,55 @@
+{% comment %}
+    this is previous or first index.html file, demonstrating the use of variables.
+{% endcomment %}
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martian Photography Island</title>
+</head>
+<body>
+    <b> Welcome to Martian Photography Island, here I am here for your service!</b>
+
+    <p> Check our latest collections for preview of your desired photographs.</p>
+
+    This is variable1 : <b> {{variable1}} </b> , make some noiseeeeeeeeeeee..... 
+    <br>
+    
+    This is variable2 : <b> {{variable2}} </b> , make more noiseeeeeeeeeeee.........
+</body>
+</html>
+
+
+{%comment%} 
+<div class="container-fluid my-4">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            {% comment %} <img src="https://source.unsplash.com/random/?street/1600x400" class="d-block w-100" alt="..." style="max-height: 400px;"> {% endcomment %}
+            <img src="https://source.unsplash.com/random/1600x600/?street" class="d-block w-100" alt="...>
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/random/1600x600/?indianwedding" class="d-block w-100" alt="..." style="object-fit: cover;">
+            
+          </div>
+          <div class="carousel-item">
+            {% comment %} <img src="https://source.unsplash.com/random/?nature/1600x400" class="d-block w-100" alt="..." style="max-height: 400px;"> {% endcomment %}
+            <img src="https://source.unsplash.com/random/1600x600/?girl" class="d-block w-100" alt="..." style="object-fit: cover;">
+
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+</div>
+{%endcomment%}

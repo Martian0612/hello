@@ -1,0 +1,1 @@
+This is Martian, testing static folder!!!
